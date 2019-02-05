@@ -1,0 +1,95 @@
+.Nav{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding:0;
+    margin: 0;
+}
+.container{
+    width: 90%;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+}
+.Nav-shadow{
+    border-bottom: 1px solid #ddd;
+    box-shadow: 2px 2px 5px #ddd;
+    background: #fff;
+}
+.Nav-ul{
+    padding-top: 20px; 
+    margin-left: 0;
+}
+.Nav-ul li{
+    display: inline;
+    padding-right: 5px; 
+    font-size: 25px;
+    cursor: pointer;
+}
+.Nav-ul li a{
+    color: #14171a;
+    text-decoration: none;
+    font-weight: 500;
+}
+.Nav-ul li a:hover{
+    color: #1da1f2;
+}
+.Nav-links{
+   flex-basis: 30%;
+}
+#navimage1{
+    width:40px;
+    height: 35px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.Nav-img{
+    margin: 45px auto 15px auto;
+   
+}
+.Nav-img img{
+    width: 40px;
+    height:40px;
+}
+
+.Nav-input{
+    margin-top: 20px;
+    flex-basis: 25%;
+   
+}
+.Nav-search{
+    width: 250px;
+    height: 50px;
+    font-size: 20px;
+    padding:5px 10px;
+    border-radius: 15px;
+    border: 1px solid #ddd;
+}
+
+.Nav-input button{
+    margin-top: 15px;
+    width: 150px;
+    margin-left: 10px;
+    height: 50px;
+    font-size: 20px;
+    padding:5px 10px;
+    border-radius: 15px;
+    color: #fff;
+    background-color: #1da1f2;
+    border: 1px solid #ddd;
+    
+}
+.Nav-input button:hover{
+    color: #fff;
+    background-color: #6cb3df;
+}
+
+
+
+
+@media(min-width:768px){
+    .Nav{
+        display: flex;
+        justify-content: space-between;
+    }
+}

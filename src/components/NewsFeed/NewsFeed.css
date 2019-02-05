@@ -1,0 +1,257 @@
+.container{
+    width: 90%;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+}
+
+.global-container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.profile{
+    flex-basis: 23%;
+    padding: 10px;
+    
+}
+
+.news-feed{
+    flex-basis: 50%;
+    padding: 10px;
+    
+}
+
+.suggestion{
+    flex-basis: 23%;
+    padding: 10px;
+    
+}
+.profile-img1{
+    width: 100%;
+    height: 170px;
+    border-radius: 5px;
+}
+.profile-img2{
+    width: 80%;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: -50px;
+    margin-left: 10px;
+}
+
+.profile-details{
+    background: #fff;
+    display: flex;
+}
+.profile-details-img{
+    flex-basis: 30%;
+}
+.profile-details2{
+    flex-basis: 45%;
+    
+}
+
+.profile-details2 h2, .profile-details2 p{
+    margin: 0;
+}
+.profile-details2 h2:hover, .profile-details2 p:hover{
+   text-decoration: underline;
+}
+.profile-details2 h2{
+    font-size: 25px;
+}
+.profile-details2 p{
+    font-size: 20px;
+    color: #657786;
+}
+
+.follower-count{
+    background: #fff;
+    display: flex;
+    justify-content: space-around;
+}
+
+.follower-count h2{
+    margin-bottom: 0;
+    color: #657786;
+}
+.follower-count h2:hover{
+    color: #1DA1F2;
+}
+.follower-count p{
+    margin-top: 0;
+    text-align: center;
+    color:#1DA1F2;
+    font-size: 30px;
+    font-weight:bold;
+}
+
+.trends{
+    margin-top: 20px;
+    padding: 10px;
+    background: #fff;
+}
+
+.trends h1{
+    font-size: 22px;
+}
+
+.trends h3{
+    margin: 3px;
+    font-size: 20px;
+    color:#1DA1F2;
+}
+.trends h3:hover{
+   text-decoration: underline;
+}
+.trends p{
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+/* Newsfeed */
+
+.input-group{
+    display: flex;
+    height: 60px;
+    padding: 15px 15px 25px 15px;
+    justify-content: space-between;
+    background: rgb(216, 238, 247);
+}
+.input-img{
+    flex-basis: 10%;
+}
+.tweet-input{
+    flex-basis: 75%;
+}
+.tweet-input{
+    flex-basis: 90%;
+}
+.tweet-input1{
+    width: 97%;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.input-img1{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+
+.tweet-card{
+    display: flex;
+    border-bottom: 1px solid #e6ecf0;
+    cursor: pointer;
+    background: #fff;
+    padding: 10px;
+}
+
+.tweet-card-img{
+    flex-basis: 10%;
+}
+.tweet-card-img1{
+    border-radius: 50%;
+    padding: 10px;
+    width: 52px;
+    height: 52px;
+}
+.tweet-card-feed{
+    flex-basis: 80%;
+}
+
+.tweet-card-feed h2, .tweet-card-feed h4, .tweet-card-feed h5{
+    display: inline;
+    margin: 0 5px 0px 0px;
+}
+
+.tweet-card-feed h2{
+    color: #14171a;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.tweet-card-feed h2:hover{
+    color: #1DA1F2;
+    text-decoration: underline;
+}
+
+.tweet-card-feed h4, .tweet-card-feed h5 {
+    font-size: 20px;
+    color: #657786;
+    font-weight:normal;
+    margin: 0;
+}
+
+.tweet-card-feed p{
+    font-size: 18px;
+    line-height: 20px;
+    padding: 0;
+}
+
+.tweet-card-feed-img{
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.emoji1{
+    margin-right: 50px;
+    width: 28px;
+}
+.emoji{
+    margin-right: 50px;
+    width: 30px;
+    color:  #657786;
+}
+.emoji:hover{
+    color:  #1DA1F2;;
+}
+.suggested-handles{
+    background: #fff;
+    padding: 10px;
+    display: flex;
+}
+
+.suggestion-header1{
+    margin-right: 5px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.suggestion-header2{
+    font-size: 20px;
+    color: #1DA1F2;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    
+}
+
+.tweet-card-feed button{
+    border-color: #1DA1F2;
+    color: #1DA1F2;
+    background-color: #fff;
+    border: 1px solid #1da1f2;
+    border-radius: 15px;
+    font-size: 20px;
+    line-height: 16px;
+    padding: 4px 12px;
+    height: 40px;
+    width: 100px;
+}
+.tweet-card-feed button:hover{
+    color:  #fff;
+    background-color: #1DA1F2;
+}
+
+.links{
+    padding:10px;
+    background: #fff;
+}
